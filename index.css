@@ -1,0 +1,38 @@
+.bg-black {
+	background-color: transparent;
+	z-index: 1;
+}
+
+.img-icon {
+	margin-left: 25px;
+	width: 40px;
+}
+
+.text-paleyellow {
+	color: #e2e274;
+}
+
+.bg-image {
+	background-image: url(./images/porfolio-bg.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.bg-imagef {
+	background-image: url(./images/porfolio-bgf.jpg);
+	background-size: 100%;
+}
+
+.mt-n50 {
+	margin-top: -50px;
+	z-index: 2;
+}
+
+.mt-80 {
+	margin-top: 90px;
+}
+
+.w-fixed {
+	width: 350px;
+	height: 200px;
+}
