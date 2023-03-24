@@ -7,6 +7,10 @@
 	z-index: 1;
 }
 
+.bg-black-frm {
+	background-color: transparent;
+}
+
 .text-paleyellow{
 	color: #faee7b;
 }
