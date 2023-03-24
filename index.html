@@ -6,17 +6,19 @@
 		<!-- Responsive Meta Tag -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="stylesheet" type="text/css" href="./index.css">
-
 		<!-- Bootstrap Link -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
 
-		<title>Bootstrap Components</title>
+		<link rel="stylesheet" type="text/css" href="./index.css">
+
+		<link rel="icon" href="./images/portfolio-icon.jpg">
+
+		<title>Romhert Alteza Portfolio</title>
 	</head>
 	<body>
 
 		<!-- navbar start -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-black py-0">
+		<nav class="navbar navbar-expand navbar-dark bg-black py-0">
 		  <a class="navbar-brand" href="#"><img class="rounded-circle img-icon" src="./images/portfolio-icon.jpg"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -24,13 +26,16 @@
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav ml-auto">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="#works">Works<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Projects</a>
+		        <a class="nav-link" href="#education">Education</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Tools</a>
+		        <a class="nav-link" href="#skills">Tools</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -39,82 +44,165 @@
 
 		<!-- Main Content Section Start -->
 		<div class="container-fluid text-center mt-n50 bg-image">
+
+			<!-- Landing Start -->
 			<div class="row">
 				<div class="col-xl-12 p-0">
 					
 					<!-- Profile Section Start -->
 					<div class="container-fluid d-flex align-items-center flex-column text-light min-vh-100 p-3 p-md-5">
 						
-						<div class="mt-80">
-							<img class="mt-5 mt-md-0 rounded-circle" src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-3066352.jpg" width="250">
+						<div class="mt-125">
+							<img class="mt-5 mt-md-0 rounded-circle w-250" src="./images/self-bg-trans.png">
 						</div>
 
-						<h1 class="text-paleyellow">Romhert Alteza</h1>
-						<h3>Full-Stack Developer</h3>
+						<h1 class="text-paleyellow d-none d-md-block">Romhert Alteza</h1>
+						<h3 class="d-none d-md-block">Full-Stack Developer</h3>
+						<h3 class="text-paleyellow d-md-none">Romhert Alteza</h1>
+						<h5 class="d-md-none">Full-Stack Developer</h3>
 
 						<div class="row">
-							<div class="offset-md-2 col-md-8">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="offset-md-1 col-md-10 ">
+								<p class="text-justify text-md-center">An electronics engineer with a passion for programming, I bring a unique skillset to the table that combines my expertise in hardware and software. I am proficient in programming languages commonly used in electronics such as C, C++, and VB.Net, and I have experience designing and testing electronic systems using circuit simulators. With a deep interest in software development principles, I am currently exploring web development and expanding my knowledge in languages like HTML, CSS, and JavaScript. I believe my strong background in electronics and programming make me a valuable engineer who can tackle complex projects that require both hardware and software expertise, and I am excited to apply my skills to new and challenging endeavors.</p>
 							</div>
 						</div>
 					</div>
 	                <!-- Profile Section End --> 
 				</div>
 			</div>
+			<!-- Landing End -->
 
 			<!-- Projects Section Start -->
-			<h2 class="mb-3 text-paleyellow">Gen. Work Experiences</h2>
+			<h2 id="works" class="mb-3 text-paleyellow">Work Experiences</h2>
 		
 			<div class="row mt-5">
-			    <div class="col-12 col-md-4 offset-2">
-			    	<!-- <div class="d-flex align-items-center flex-column"> -->
-			        	<img src="./images/tekkotsu.jpeg" class="w-100 w-fixed rounded" />
-			    	<!-- </div> -->
+			    <div class="col-12 col-lg-4 offset-lg-2">
+			        	<img src="./images/tekkotsu.jpeg" class="w-100 w-exp-fixed rounded" />
 			    </div>
-			    <div class="col-12 col-md-4 text-light">
+			    <div class="col-10 offset-1 offset-lg-0 mt-lg-0 pt-lg-0 mt-3 col-lg-4 text-light min-vh-10">
 			        <h5 class="text-center">System Developer</h5>
 			        <h5 class="text-center">3D plot automation</h5>
-			        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			        <p class="text-md-center text-justify">Development and maintenance of CAD systems that are responsible for checking design standards, generating 2D layouts into 3D models, and printing out material tables, erection plans, and assembly plans. Developed macros and scripts to automate routine tasks and enhance productivity. Successfully integrated CAD systems with other software platforms and systems. Experienced in creating templates and standard libraries to ensure consistency in design and standards compliance.</p>
 			    </div>
 			</div>
 
 			<div class="row mt-5">
-			    <div class="col-12 col-md-4 offset-2">
-			        <img src="./images/landplot.jpeg" class="w-fixed rounded" />
+			    <div class="col-12 col-lg-4 offset-lg-2">
+			        <img src="./images/landplot.jpeg" class="w-exp-fixed rounded" />
 			    </div>
-			    <div class="col-12 col-md-4 text-light">
+			    <div class="col-10 offset-1 offset-lg-0 mt-lg-0 pt-lg-0 mt-3 col-lg-4 text-light">
 			        <h5 class="text-center">Land Plotting</h5>
-			        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			        <p class="text-md-center text-justify">Experience in land development and subdivision design. Using AutoCAD and other software tools, I have designed and laid out land parcels and subdivisions that comply with zoning regulations, topography, and environmental requirements. My experience revolves mainly on laying out lands underneath NGCP transmission lines and coordinating with surveyors, planners, and other professionals to ensure the project is executed efficiently and effectively.</p>
 			    </div>
 			</div>
 			
 			<div class="row mt-5">
-			    <div class="col-12 col-md-4 offset-2">
-			        <img src="./images/hvac.jpg" class="w-fixed rounded" />
+			    <div class="col-12 col-lg-4 offset-lg-2">
+			        <img src="./images/hvac.jpg" class="w-exp-fixed rounded" />
 			    </div>
-			    <div class="col-12 col-md-4 text-light">
+			    <div class="col-10 offset-1 offset-lg-0 mt-lg-0 pt-lg-0 mt-3 col-lg-4 text-light">
 			        <h5 class="text-center">HVAC 3D Layout</h5>
-			        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			        <p class="text-md-center text-justify">Designing HVAC systems using computer-aided design (CAD) software. Proficient in using CAD tools such as AutoCAD and Cadwe'll Tfas to create detailed HVAC plans. My experience includes designing HVAC systems for commercial and residential buildings, calculating load requirements, and selecting appropriate equipment and materials. Experienced collaborating with architects and contractors to ensure that HVAC plans are integrated smoothly with overall building plans.</p>
 			    </div>
 			</div>
-
 			<!-- Projects Section End -->
 
+			<!-- Education Section Start -->
+			<h2 id="education" class="mb-3 mt-5 text-paleyellow">Education</h2>
+		
+			<div class="row mt-5">
+			    <div class="col-12 col-md-4 offset-md-2">
+			        	<img src="./images/la-consolacion-college-iriga-city.png" class="w-50 min-vh-25 rounded-circle" />
+			    </div>
+			    <div class="col-12 col-md-4">
+			        	<img src="./images/ateneo_de_naga_university_logo.png" class="w-50 min-vh-25 rounded-circle" />
+			    </div>
+			</div>
+			<!-- Education Section End -->
+
+			<!-- Skills Section Start -->
+			<h2 id="skills" class="mb-3 mt-5 text-paleyellow">Skills and Platforms</h2>
+		
+			<div class="row mt-5">
+		    	<div class="col-12 col-md-2 col-lg-1 offset-md-2">
+		    	    	<img src="./images/access.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/c++.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/c.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/cisco.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1 offset-md-2 offset-lg-0">
+		    	    	<img src="./images/css.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/excel.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/html.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/ijcad.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+			</div>
+			<div class="row">
+		    	<div class="col-12 col-md-2 col-lg-1 offset-md-2">
+		    	    	<img src="./images/js.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/matlab.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/mysql.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/sccm.jpg" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1 offset-md-2 offset-lg-0">
+		    	    	<img src="./images/sheets.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/vb-net.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/vba.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/word.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1 offset-md-2">
+		    	    	<img src="./images/xml.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/gimp.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/ps.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/autocad.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+		    	<div class="col-12 col-md-2 col-lg-1">
+		    	    	<img src="./images/microcontrollers.png" class="w-icon-fixed w-50 rounded p-3" />
+		    	</div>
+			</div>
+			<!-- Skills Section End -->
+
+			<!-- Contacts Start -->
 			<div class="row">
 				<div class="col-xl-12 p-0">
 
 					<!-- Contact Form Section Start -->
-					<div class="bg-dark min-vh-100 p-5">
+					<div class="min-vh-100 p-5">
 
-						<h2 class="text-light">Contact Me</h2>
+						<h2 id="contact" class="text-paleyellow">Contact Me</h2>
 
 						<div class="row mt-3">
-							<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-primary p-3 rounded">
+							<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-black p-3 rounded">
 								<div class="form-group">
 									<label class="text-light" for="name">Name</label>
 									<input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -144,7 +232,7 @@
 									<textarea class="form-control" id="message" rows="7"></textarea>
 								</div>
 
-								<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+								<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Send Email</button>
 
 								<!-- Modal Start -->
 								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -159,7 +247,7 @@
 
 											<div class="modal-body">Message Successfully Sent</div>
 											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 									</div>
@@ -171,6 +259,30 @@
 					<!-- Contact Form Section End -->
 				</div>
 			</div>
+			<!-- Contacts End -->
+
+			<!-- Footer Start -->
+			<div class="container-fluid">
+				<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+					<div class="col-4 d-flex align-items-center">
+						<a class="navbar-brand" href="#"><img class="rounded-circle img-icon" src="./images/portfolio-icon.jpg"></a>
+						<span class="mb-3 mb-md-0 text-paleyellow d-none d-md-inline">Romhert Alteza</span>
+					</div>
+
+					<div class="col-4 justify-content-end align-items-center d-flex">
+					      <div class="ms-3 pl-3">
+					      	<a href="https://www.facebook.com/"><img class="rounded-circle img-icon-ft" src="./images/fb.png"></a>
+					      </div>
+					      <div class="ms-3 pl-3">
+					      	<a href="https://www.instagram.com/"><img class="img-icon-ft" src="./images/ig.png"></a>
+					      </div>
+					      <div class="ms-3 pl-3">
+					      	<a href="https://www.linkedin.com/in/romhert-alteza-716032124"><img class="img-icon-ft" src="./images/ln.png"></a>
+					      </div>
+					</div>
+				</footer>
+			</div>
+			<!-- Footer End -->
 		</div>
 		<!-- Main Content Section End -->
 
