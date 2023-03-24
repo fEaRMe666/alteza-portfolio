@@ -82,5 +82,11 @@
 }
 
 .map-height {
-	height: 600px;
+	height: 450px;
+	width: 600px;
+}
+
+.p-map {
+	padding-top: 150px;
+	padding-right: 100px;
 }
